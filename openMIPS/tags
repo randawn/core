@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+EXE	Makefile	/^EXE       =vcs$/;"	m
+EXE_NOP	defines.v	/^`define EXE_NOP     6'b000000$/;"	c
+EXE_NOP_OP	defines.v	/^`define EXE_NOP_OP  8'b00000000$/;"	c
+EXE_ORI	defines.v	/^`define EXE_ORI     6'b001101$/;"	c
+EXE_OR_OP	defines.v	/^`define EXE_OR_OP   8'b00100101$/;"	c
+EXE_RES_LOGIC	defines.v	/^`define EXE_RES_LOGIC 3'b001$/;"	c
+EXE_RES_NOP	defines.v	/^`define EXE_RES_NOP   3'b000$/;"	c
+FALSE	defines.v	/^`define FALSE       1'b0$/;"	c
+FILE	Makefile	/^FILE      =-f f.lst$/;"	m
+NOVAS_PLI	Makefile	/^NOVAS_PLI =-P \/home\/ran\/EDA\/synopsys\/verdi\/share\/PLI\/VCS\/LINUX64\/novas.tab \/home\/ran\/EDA\/synopsys\/verdi\/share\/PLI\/VCS\/LINUX64\/pli.a$/;"	m
+TURE	defines.v	/^`define TURE        1'b1$/;"	c
+VCS_OPT	Makefile	/^VCS_OPT   =+v2k -debug -sverilog -full64$/;"	m
+addr	id.v	/^wire [25:0] addr = id_inst[25:0];$/;"	n
+clk	d_reg.v	/^    input clk,$/;"	p
+clk	den_reg.v	/^    input clk,$/;"	p
+clk	dr_reg.v	/^    input clk,$/;"	p
+clk	dren_reg.v	/^    input clk,$/;"	p
+clk	ex_mem.v	/^    input clk,$/;"	p
+clk	id_ex.v	/^    input clk,$/;"	p
+clk	if_id.v	/^    input clk,$/;"	p
+clk	mem_wb.v	/^    input clk,$/;"	p
+clk	mips.v	/^    input clk,$/;"	p
+clk	pc_reg.v	/^    input   clk,$/;"	p
+clk	regfile.v	/^    input clk,$/;"	p
+d	den_reg.v	/^    input [WIDTH-1:0] d,$/;"	p
+d	dr_reg.v	/^    input [WIDTH-1:0] d,$/;"	p
+d_reg	d_reg.v	/^module d_reg$/;"	m
+den_reg	den_reg.v	/^module den_reg$/;"	m
+dr_reg	dr_reg.v	/^module dr_reg$/;"	m
+dren_reg	dren_reg.v	/^module dren_reg$/;"	m
+en	dren_reg.v	/^    input en,$/;"	p
+ex	ex.v	/^module ex($/;"	m
+ex_alu_sel	ex.v	/^    input [2:0]  ex_alu_sel,$/;"	p
+ex_mem	ex_mem.v	/^module ex_mem($/;"	m
+ex_reg1	ex.v	/^    input [31:0] ex_reg1,$/;"	p
+ex_wd_o	ex_mem.v	/^    input [4:0] ex_wd_o,$/;"	p
+ex_wdata_o	ex_mem.v	/^    input [31:0] ex_wdata_o,$/;"	p
+ex_wreg	ex.v	/^    input ex_wreg,$/;"	p
+func	id.v	/^wire [5:0] func = id_inst[5:0];$/;"	n
+id	id.v	/^module id($/;"	m
+id_alu_op	id_ex.v	/^    input [7:0]  id_alu_op,$/;"	p
+id_ex	id_ex.v	/^module id_ex($/;"	m
+id_inst	id.v	/^    input [31:0] id_inst,$/;"	p
+id_reg0	id_ex.v	/^    input [31:0] id_reg0,$/;"	p
+id_wd	id_ex.v	/^    input [4:0]  id_wd,$/;"	p
+if_id	if_id.v	/^module if_id($/;"	m
+if_pc	if_id.v	/^    input [31:0] if_pc,$/;"	p
+if_pc_next	pc_reg.v	/^wire [31:0] if_pc_next = if_pc + 'd4;$/;"	n
+imme	id.v	/^wire [15:0] imme = id_inst[15:0];$/;"	n
+input	d_reg.v	/^    input [WIDTH-1:0] d,$/;"	p
+input	den_reg.v	/^    input en,$/;"	p
+input	dr_reg.v	/^    input rst_,$/;"	p
+input	dren_reg.v	/^    input [WIDTH-1:0] d,$/;"	p
+input	dren_reg.v	/^    input rst_,$/;"	p
+input	ex.v	/^    input [31:0] ex_reg0,$/;"	p
+input	ex.v	/^    input [4:0]  ex_wd,$/;"	p
+input	ex.v	/^    input [7:0]  ex_alu_op,$/;"	p
+input	ex_mem.v	/^    input ex_wreg_o,$/;"	p
+input	ex_mem.v	/^    input rst_, $/;"	p
+input	id.v	/^    input [31:0] id_pc,$/;"	p
+input	id.v	/^    input [31:0] reg0_data,$/;"	p
+input	id_ex.v	/^    input [2:0]  id_alu_sel,$/;"	p
+input	id_ex.v	/^    input [31:0] id_reg1,$/;"	p
+input	id_ex.v	/^    input id_wreg,$/;"	p
+input	id_ex.v	/^    input rst_,$/;"	p
+input	if_id.v	/^    input [31:0] if_inst,$/;"	p
+input	if_id.v	/^    input rst_,$/;"	p
+input	mem.v	/^    input [31:0] mem_wdata,$/;"	p
+input	mem.v	/^    input [4:0] mem_wd,$/;"	p
+input	mem_wb.v	/^    input mem_wreg,$/;"	p
+input	mem_wb.v	/^    input rst_, $/;"	p
+input	mips.v	/^    input rst_,$/;"	p
+input	pc_reg.v	/^    input   rst_,$/;"	p
+input	regfile.v	/^    input [4:0] raddr1,$/;"	p
+input	regfile.v	/^    input [4:0] waddr,$/;"	p
+input	regfile.v	/^    input re0,$/;"	p
+input	regfile.v	/^    input rst_,$/;"	p
+inst_data	mips.v	/^    input [31:0] inst_data,$/;"	p
+inst_vld	id.v	/^reg inst_vld;$/;"	r
+logicout	ex.v	/^reg [31:0] logicout;$/;"	r
+mem	mem.v	/^module mem($/;"	m
+mem_wb	mem_wb.v	/^module mem_wb($/;"	m
+mem_wd	mem_wb.v	/^    input [4:0] mem_wd,$/;"	p
+mem_wdata	mem_wb.v	/^    input [31:0] mem_wdata,$/;"	p
+mem_wreg	mem.v	/^    input mem_wreg,$/;"	p
+mips	mips.v	/^module mips($/;"	m
+op	id.v	/^wire [5:0] op = id_inst[31:26];$/;"	n
+output	den_reg.v	/^    output reg [WIDTH-1:0] q$/;"	p
+output	dr_reg.v	/^    output reg [WIDTH-1:0] q$/;"	p
+output	ex.v	/^    output reg [4:0] ex_wd_o,$/;"	p
+output	ex_mem.v	/^    output reg [4:0] mem_wd,$/;"	p
+output	id.v	/^    output reg reg0_read,$/;"	p
+output	mem_wb.v	/^    output reg [4:0] wb_wd,$/;"	p
+output	mips.v	/^    output [31:0] pc,$/;"	p
+output	regfile.v	/^    output [31:0] rdata0,$/;"	p
+pc_reg	pc_reg.v	/^module pc_reg($/;"	m
+pc_vld	mips.v	/^    output pc_vld$/;"	p
+pc_vld_next	pc_reg.v	/^wire pc_vld_next = 'b1;$/;"	n
+raddr0	regfile.v	/^    input [4:0] raddr0,$/;"	p
+rd	id.v	/^wire [4:0] rd = id_inst[15:11];$/;"	n
+rdata0	regfile.v	/^wire rdata0 = !rst_ ? 'b0:$/;"	n
+rdata1	regfile.v	/^    output [31:0] rdata1$/;"	p
+rdata1	regfile.v	/^wire rdata1 = !rst_ ? 'b0:$/;"	n
+re1	regfile.v	/^    input re1,$/;"	p
+reg	d_reg.v	/^    output reg [WIDTH-1:0] q$/;"	p
+reg	dren_reg.v	/^    output reg [WIDTH-1:0] q$/;"	p
+reg	ex.v	/^    output reg [31:0] ex_wdata_o$/;"	p
+reg	ex.v	/^    output reg ex_wreg_o,$/;"	p
+reg	ex_mem.v	/^    output reg [31:0] mem_wdata$/;"	p
+reg	ex_mem.v	/^    output reg mem_wreg,$/;"	p
+reg	id.v	/^    output reg [2:0] id_alu_sel,$/;"	p
+reg	id.v	/^    output reg [31:0] id_reg0,$/;"	p
+reg	id.v	/^    output reg [31:0] id_reg1,$/;"	p
+reg	id.v	/^    output reg [4:0] id_wd,$/;"	p
+reg	id.v	/^    output reg [4:0] reg0_addr,$/;"	p
+reg	id.v	/^    output reg [4:0] reg1_addr,$/;"	p
+reg	id.v	/^    output reg [7:0] id_alu_op,$/;"	p
+reg	id.v	/^    output reg id_wreg$/;"	p
+reg	id.v	/^    output reg reg1_read,$/;"	p
+reg	id_ex.v	/^    output reg [2:0]  ex_alu_sel,$/;"	p
+reg	id_ex.v	/^    output reg [31:0] ex_reg0,$/;"	p
+reg	id_ex.v	/^    output reg [31:0] ex_reg1,$/;"	p
+reg	id_ex.v	/^    output reg [4:0]  ex_wd,$/;"	p
+reg	id_ex.v	/^    output reg [7:0]  ex_alu_op,$/;"	p
+reg	id_ex.v	/^    output reg ex_wreg$/;"	p
+reg	if_id.v	/^    output reg [31:0] id_inst$/;"	p
+reg	if_id.v	/^    output reg [31:0] id_pc,$/;"	p
+reg	mem.v	/^    output reg [32:0] wb_wdata$/;"	p
+reg	mem.v	/^    output reg [4:0] wb_wd,$/;"	p
+reg	mem.v	/^    output reg wb_wreg,$/;"	p
+reg	mem_wb.v	/^    output reg [31:0] wb_wdata$/;"	p
+reg	mem_wb.v	/^    output reg wb_wreg,$/;"	p
+reg	pc_reg.v	/^    output  reg [31:0] if_pc,$/;"	p
+reg	pc_reg.v	/^    output  reg if_pc_vld$/;"	p
+reg1_data	id.v	/^    input [31:0] reg1_data,$/;"	p
+regfile	regfile.v	/^module regfile($/;"	m
+regs	regfile.v	/^reg [31:0] regs [0:31];$/;"	r
+rs	id.v	/^wire [4:0] rs = id_inst[25:21];$/;"	n
+rst_	ex.v	/^    input rst_,$/;"	p
+rst_	id.v	/^    input rst_,$/;"	p
+rst_	mem.v	/^    input rst_,$/;"	p
+rt	id.v	/^wire [4:0] rt = id_inst[20:16];$/;"	n
+sa	id.v	/^wire [4:0] sa = id_inst[10:6];$/;"	n
+wdata	regfile.v	/^    input [31:0] wdata,$/;"	p
+we	regfile.v	/^    input we,$/;"	p

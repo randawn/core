@@ -1,0 +1,135 @@
+0 
+31
++cli+4
++itf+/home/ran/EDA/synopsys/vcs/amd64/lib/vcsd.tab
++lint=all,noVCDE
++memcbk
++v2k
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -O -I/home/ran/EDA/synopsys/vcs/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=
+-Mobjects= /home/ran/EDA/synopsys/vcs/amd64/lib/libvirsim.so /home/ran/EDA/synopsys/vcs/amd64/lib/liberrorinf.so /home/ran/EDA/synopsys/vcs/amd64/lib/libsnpsmalloc.so /home/ran/EDA/synopsys/verdi/share/PLI/VCS/LINUX64/pli.a
+-Mout=simv
+-Msaverestoreobj=/home/ran/EDA/synopsys/vcs/amd64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm -lm
+-Mvcsaceobjs=
+-P
+-Xcbug=0x1
+-debug=3
+-f f.lst
+-full64
+-gen_obj
+-sverilog
+/home/ran/EDA/synopsys/vcs/amd64/bin/vcs1
+/home/ran/EDA/synopsys/verdi/share/PLI/VCS/LINUX64/novas.tab
+71
+sysc_uni_pwd=/home/ran/Hello-world/openMIPS
+XMODIFIERS=@im=ibus
+XDG_VTNR=7
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_ID=c2
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/ran
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=Unity
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+XAUTHORITY=/home/ran/.Xauthority
+VTE_VERSION=3409
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/ran/EDA/synopsys/verdi
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/home/ran/EDA/synopsys/vcs
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=amd64
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1940
+UNAME=/bin/uname
+TOOL_HOME=/home/ran/EDA/synopsys/vcs/amd64
+TEXTDOMAINDIR=/usr/share/locale/
+TEXTDOMAIN=im-config
+SYNOPSYS=/home/ran/EDA/synopsys
+SSH_AUTH_SOCK=/run/user/1000/keyring-PwN6Zg/ssh
+SNPSLMD_LICENSE_FILE=27000@ubuntu:/home/ran/EDA/synopsys/vcs/flexlm//license.dat
+SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/2176,unix/ubuntu:/tmp/.ICE-unix/2176
+SESSIONTYPE=gnome-session
+SESSION=ubuntu
+SELINUX_INIT=YES
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+QT_IM_MODULE=ibus
+QT4_IM_MODULE=xim
+OVA_UUM=0
+OSTYPE=linux
+MFLAGS=
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+MAKELEVEL=1
+MAKEFLAGS=
+LSCOLORS=ExGxFxdxCxegedabagExEx
+LC_ALL=C
+JOB=dbus
+INSTANCE=
+IM_CONFIG_PHASE=1
+HOSTTYPE=x86_64-linux
+GTK_MODULES=overlay-scrollbar:unity-gtk-module
+GTK_IM_MODULE=ibus
+GROUP=ran
+GPG_AGENT_INFO=/run/user/1000/keyring-PwN6Zg/gpg:0:1
+GNOME_KEYRING_PID=1934
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-PwN6Zg
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US
+GDMSESSION=ubuntu
+DESKTOP_SESSION=ubuntu
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-U7vI3Mgrzf
+COMPIZ_CONFIG_PROFILE=ubuntu
+COMPIZ_BIN_PATH=/usr/bin/
+COLORTERM=gnome-terminal
+CLUTTER_IM_MODULE=xim
+CLICOLOR=yes
+0
+21
+1456628040 mips_tb.v
+1456628074 inst_rom.v
+1456676585 mips.v
+1456758378 regfile.v
+1456758218 wb.v
+1456672171 mem_wb.v
+1456668923 mem.v
+1456668601 ex_mem.v
+1456759612 ex.v
+1455466251 id_ex.v
+1459185606 id.v
+1456628841 if_id.v
+1455550306 pc_reg.v
+1455293192 dren_reg.v
+1455293192 den_reg.v
+1455293192 dr_reg.v
+1455293161 d_reg.v
+1459185404 defines.v
+1456758193 f.lst
+1369979133 /home/ran/EDA/synopsys/vcs/amd64/lib/vcsd.tab
+1392059245 /home/ran/EDA/synopsys/verdi/share/PLI/VCS/LINUX64/novas.tab
+5
+0 
+1369979665 /home/ran/EDA/synopsys/vcs/amd64/lib/libvirsim.so
+1369979419 /home/ran/EDA/synopsys/vcs/amd64/lib/liberrorinf.so
+1369979224 /home/ran/EDA/synopsys/vcs/amd64/lib/libsnpsmalloc.so
+1392059245 /home/ran/EDA/synopsys/verdi/share/PLI/VCS/LINUX64/pli.a
+1459185621 simv.daidir

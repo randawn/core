@@ -1,0 +1,5 @@
+`include "d_reg.v"
+`include "dr_reg.v"
+`include "den_reg.v"
+`include "dren_reg.v"
+`include "defines.v"
